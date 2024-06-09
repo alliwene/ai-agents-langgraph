@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ai-agents-langgraph"
+version = "0.1.0"
+description = "Creating AI agents with LangGraph"
+authors = ["Abiodun Allison <allisonabiodun@gmail.com>"]
+readme = "README.md"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "1.31.2"
+python-dotenv = "1.0.1"
+langgraph = "^0.0.65"
+langchain-core = "0.2.4"
+langchain = "^0.2.3"
+langchain-openai = "0.1.8"
+langchain-community = "0.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
