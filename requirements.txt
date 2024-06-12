@@ -10,6 +10,7 @@ annotated-types==0.7.0
     # via pydantic
 anyio==4.4.0
     # via
+    #   groq
     #   httpx
     #   openai
 attrs==23.2.0
@@ -24,17 +25,23 @@ charset-normalizer==3.3.2
 dataclasses-json==0.6.6
     # via langchain-community
 distro==1.9.0
-    # via openai
+    # via
+    #   groq
+    #   openai
 frozenlist==1.4.1
     # via
     #   aiohttp
     #   aiosignal
+groq==0.8.0
+    # via langchain-groq
 h11==0.14.0
     # via httpcore
 httpcore==1.0.5
     # via httpx
 httpx==0.27.0
-    # via openai
+    # via
+    #   groq
+    #   openai
 idna==3.7
     # via
     #   anyio
@@ -56,9 +63,12 @@ langchain-core==0.2.4
     #   ai-agents-langgraph (pyproject.toml)
     #   langchain
     #   langchain-community
+    #   langchain-groq
     #   langchain-openai
     #   langchain-text-splitters
     #   langgraph
+langchain-groq==0.1.5
+    # via ai-agents-langgraph (pyproject.toml)
 langchain-openai==0.1.8
     # via ai-agents-langgraph (pyproject.toml)
 langchain-text-splitters==0.2.1
@@ -94,6 +104,7 @@ packaging==23.2
     #   marshmallow
 pydantic==2.7.3
     # via
+    #   groq
     #   langchain
     #   langchain-core
     #   langsmith
@@ -118,6 +129,7 @@ requests==2.32.3
 sniffio==1.3.1
     # via
     #   anyio
+    #   groq
     #   httpx
     #   openai
 sqlalchemy==2.0.30
@@ -135,6 +147,7 @@ tqdm==4.66.4
     # via openai
 typing-extensions==4.12.2
     # via
+    #   groq
     #   openai
     #   pydantic
     #   pydantic-core
