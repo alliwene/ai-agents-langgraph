@@ -10,15 +10,16 @@ package-mode = true
 python = ">=3.11,<3.12"
 openai = "1.33.0"
 python-dotenv = "1.0.1"
-langgraph = "^0.0.65"
+langgraph = "^0.1.0"
 langchain-core = "^0.2.10"
 langchain = "^0.2.3"
 langchain-openai = "0.1.8"
-langchain-community = "0.2.3"
+langchain-community = "0.2.6"
 langchain-groq = "^0.1.5"
 tavily-python = "^0.3.3"
 langchain-anthropic = "^0.1.17"
 langgraph-cli = "^0.1.47"
+langchain-experimental = "^0.0.62"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.8"
